@@ -1,3 +1,3 @@
 # Problem Statement
 
-Failed to fetch problem statement. URL: /problemset/task/1633/
+Failed to fetch problem statement. URL: https://cses.fi/problemset/task/1633/
