@@ -1,5 +1,3 @@
- <script defer="" src="/lib/katex/katex.min.js"></script><script defer="" src="/lib/katex/contrib/copy-tex.min.js"></script><script defer="" src="/lib/google-code-prettify/run_prettify.js"></script><script>addEventListener("DOMContentLoaded", function (e) { const mathElements = document.getElementsByClassName("math"); const macros = {}; for (let element of mathElements) { katex.render(element.textContent, element, { displayMode: element.classList.contains("math-display"), throwOnError: false, globalGroup: true, macros, }); } }); </script> .katex .base:last-child { display: inline; }
-
 *   **Time limit:** 1.00 s
 *   **Memory limit:** 512 MB
 
