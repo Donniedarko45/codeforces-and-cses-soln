@@ -1,2 +1,10 @@
-# codeforces-and-cses-soln
-Competitive Programming solutions auto-synced by CP Auto Sync
+# Competitive Programming
+
+Problems Solved: 1
+
+Platforms
+- Codeforces
+- CSES
+
+Last Updated
+7/8/2026
