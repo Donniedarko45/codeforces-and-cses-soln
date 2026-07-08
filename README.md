@@ -1,6 +1,6 @@
 # Competitive Programming
 
-Problems Solved: 3
+Problems Solved: 4
 
 Platforms
 - Codeforces
