@@ -10,7 +10,6 @@ int main() {
   for (int i = 1; i < n; i++) {
     if (s[i] == s[i - 1]) {
       prevMaxi++;
-      cout << s[i] << endl;
     } else {
       prevMaxi = 1;
     }
