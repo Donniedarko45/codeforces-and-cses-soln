@@ -21,10 +21,10 @@ int main() {
   for (int i = 0; (int)i < ans.size() - 1; i++) {
     if (abs(ans[i] - ans[i + 1]) == 1) {
       cout << "NO SOLUTION";
-      break;
-    } else {
-      cout << ans[i] << " ";
+      return 0;
     }
   }
-  cout << ans[n - 1];
+  for (int i = 0; i < n; i++) {
+    cout << ans[i] << " ";
+  }
 }
