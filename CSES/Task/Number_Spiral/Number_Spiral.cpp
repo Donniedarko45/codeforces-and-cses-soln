@@ -10,17 +10,19 @@ void input() {
  
   if (col == layer) {
     if (layer % 2 == 0) {
-      cout << (layer - 1) * (layer - 1) + row << "\n";
+      cout << (layer - 1) * (layer - 1) + row;
     } else {
       cout << layer * layer - row + 1;
     }
   } else {
     if (layer % 2 == 0) {
-      cout << (layer * layer) - col + 1 << "\n";
+      cout << (layer * layer) - col + 1;
     } else {
       cout << (layer - 1) * (layer - 1) + col;
     }
   }
+  cout << '\n';
+ 
   /*
     if (row % 2 == 0) {
       int traversingIncol = 1; // 1 based indexing curr at 1
