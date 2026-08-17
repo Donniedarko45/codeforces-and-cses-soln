@@ -6,13 +6,20 @@ void input() {
   long long row, col;
   cin >> row >> col;
   // layer calculation
-  //
   long long layer = max(row, col);
  
   if (col == layer) {
-    cout << (layer - 1) * (layer - 1) + row << "\n";
+    if (layer % 2 == 0) {
+      cout << (layer - 1) * (layer - 1) + row << "\n";
+    } else {
+      cout << layer * layer - row + 1;
+    }
   } else {
-    cout << (layer * layer) - col + 1 << "\n";
+    if (layer % 2 == 0) {
+      cout << (layer * layer) - col + 1 << "\n";
+    } else {
+      cout << (layer - 1) * (layer - 1) + col;
+    }
   }
   /*
     if (row % 2 == 0) {
