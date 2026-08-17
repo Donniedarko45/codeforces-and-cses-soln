@@ -3,17 +3,16 @@
 using namespace std;
  
 void input() {
-  int row, col;
+  long long row, col;
   cin >> row >> col;
   // layer calculation
   //
-  int layer = max(row, col);
+  long long layer = max(row, col);
  
   if (col == layer) {
-    cout << (long long)(layer - 1) * (layer - 1) + row << "\n";
+    cout << (layer - 1) * (layer - 1) + row << "\n";
   } else {
-    assert(row == layer);
-    cout << (long long)(layer * layer) - col + 1 << "\n";
+    cout << (layer * layer) - col + 1 << "\n";
   }
   /*
     if (row % 2 == 0) {
@@ -48,6 +47,5 @@ int main() {
   cin >> n;
   for (int i = 0; i < n; i++) {
     input();
-    cout << endl;
   }
 }
