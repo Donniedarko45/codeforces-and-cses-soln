@@ -1,44 +1,53 @@
-#include <iostream>
- 
+#include <bits/stdc++.h>
+#include <cassert>
 using namespace std;
  
-#define ll long long
+void input() {
+  int row, col;
+  cin >> row >> col;
+  // layer calculation
+  //
+  int layer = max(row, col);
+ 
+  if (col == layer) {
+    cout << (long long)(layer - 1) * (layer - 1) + row << "\n";
+  } else {
+    assert(row == layer);
+    cout << (long long)(layer * layer) - col + 1 << "\n";
+  }
+  /*
+    if (row % 2 == 0) {
+      int traversingIncol = 1; // 1 based indexing curr at 1
+      for (int i = row * row; i >= ((row - 1) * (row - 1) + 1); i--) {
+        if (traversingIncol == col) {
+          cout << i << " ";
+          break;
+        }
+        traversingIncol++;
+      }
+    //  cout << row * row - col + 1 << " ";
+    }
+ 
+    if (row % 2 != 0) {
+      int traversingIncol = 1;
+      for (int i = ((row - 1) * (row - 1) + 1); i <= row * row; i++) {
+        if (traversingIncol == col) {
+          cout << i << " ";
+          break;
+        }
+        traversingIncol++;
+      }
+      cout << (row - 1) * (row - 1) + col << " ";
+    }
+  */
+}
  
 int main() {
-  // Optimize standard I/O operations for performance
-  ios::sync_with_stdio(false);
-  cin.tie(nullptr);
  
-  int t;
-  if (cin >> t) {
-    while (t--) {
-      ll y, x;
-      cin >> y >> x;
- 
-      if (y > x) {
-        // For rows (y > x):
-        // If the row number is EVEN, numbers decrease as x increases (starts at
-        // y*y)
-        if (y % 2 == 0) {
-          cout << (y * y) - x + 1 << "\n";
-        }
-        // If the row number is ODD, numbers increase as x increases
-        else {
-          cout << ((y - 1) * (y - 1)) + x << "\n";
-        }
-      } else {
-        // For columns (x >= y):
-        // If the column number is ODD, numbers decrease as y increases (starts
-        // at x*x)
-        if (x % 2 == 1) {
-          cout << (x * x) - y + 1 << "\n";
-        }
-        // If the column number is EVEN, numbers increase as y increases
-        else {
-          cout << ((x - 1) * (x - 1)) + y << "\n";
-        }
-      }
-    }
+  int n;
+  cin >> n;
+  for (int i = 0; i < n; i++) {
+    input();
+    cout << endl;
   }
-  return 0;
 }
