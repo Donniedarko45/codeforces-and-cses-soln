@@ -6,6 +6,10 @@ int main() {
   int n;
   cin >> n;
   long long MOD = 1e9 + 7;
-  long long cal = pow(2, n);
-  cout << cal % MOD;
+  long long ans = 1;
+  for (int i = 0; i < n; i++) {
+    ans *= 2;
+    ans = ans % MOD;
+  }
+  cout << ans;
 }
