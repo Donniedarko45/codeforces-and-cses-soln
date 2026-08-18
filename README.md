@@ -7,12 +7,12 @@ Welcome to my competitive programming solutions repository! This repository is a
 | Platform | Solved | Badge |
 | :--- | :---: | :--- |
 | **Codeforces** | **12** | ![Codeforces](https://img.shields.io/badge/Codeforces-FF5722?style=flat-square&logo=codeforces&logoColor=white) |
-| **CSES** | **29** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
-| **Total** | **41** | — |
+| **CSES** | **30** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
+| **Total** | **42** | — |
 
 ### 🛠️ Languages Used
 
-- **C++**: 39 solutions
+- **C++**: 40 solutions
 - **Other**: 2 solutions
 
 ---
@@ -21,7 +21,7 @@ Welcome to my competitive programming solutions repository! This repository is a
 
 - **[CSES - Two Knights](https://cses.fi/problemset/task/1072/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Two Knights](https://cses.fi/problemset/task/1072/)** (Solved in C++ (C++23) on 8/18/2026)
-- **[CSES - Number Spiral](https://cses.fi/problemset/task/1071/)** (Solved in C++ (C++23) on 8/17/2026)
+- **[CSES - Two Knights](https://cses.fi/problemset/task/1072/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Number Spiral](https://cses.fi/problemset/task/1071/)** (Solved in C++ (C++23) on 8/17/2026)
 - **[CSES - Number Spiral](https://cses.fi/problemset/task/1071/)** (Solved in C++ (C++23) on 8/17/2026)
 

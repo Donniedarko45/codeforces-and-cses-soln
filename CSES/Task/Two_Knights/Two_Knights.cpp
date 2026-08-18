@@ -5,7 +5,7 @@ int main() {
   int n;
   cin >> n;
   for (long long i = 1; i <= n; i++) {
-    long long size = n * n;
+    long long size = i * i;
     // possible location..
     long long allWasys = size * (size - 1) / 2;
     long long badWays = 0;
