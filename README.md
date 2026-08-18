@@ -7,12 +7,12 @@ Welcome to my competitive programming solutions repository! This repository is a
 | Platform | Solved | Badge |
 | :--- | :---: | :--- |
 | **Codeforces** | **12** | ![Codeforces](https://img.shields.io/badge/Codeforces-FF5722?style=flat-square&logo=codeforces&logoColor=white) |
-| **CSES** | **38** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
-| **Total** | **50** | — |
+| **CSES** | **39** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
+| **Total** | **51** | — |
 
 ### 🛠️ Languages Used
 
-- **C++**: 48 solutions
+- **C++**: 49 solutions
 - **Other**: 2 solutions
 
 ---
@@ -21,7 +21,7 @@ Welcome to my competitive programming solutions repository! This repository is a
 
 - **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
-- **[CSES - Bit Strings](https://cses.fi/problemset/task/1617/)** (Solved in C++ (C++23) on 8/18/2026)
+- **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Bit Strings](https://cses.fi/problemset/task/1617/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Bit Strings](https://cses.fi/problemset/task/1617/)** (Solved in C++ (C++23) on 8/18/2026)
 

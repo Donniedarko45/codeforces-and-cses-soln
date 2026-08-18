@@ -5,6 +5,9 @@ int main() {
  
   int n;
   cin >> n;
- 
-  cout << n / 5 + n / 25;
+  int answ = 0;
+  for (int m = 5; m <= n; m *= 5) {
+    answ += n / m;
+  }
+  cout << answ;
 }
