@@ -6,5 +6,5 @@ int main() {
   int n;
   cin >> n;
  
-  cout << n / 5;
+  cout << n / 5 + n / 25;
 }
