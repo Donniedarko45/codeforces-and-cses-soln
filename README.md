@@ -7,23 +7,23 @@ Welcome to my competitive programming solutions repository! This repository is a
 | Platform | Solved | Badge |
 | :--- | :---: | :--- |
 | **Codeforces** | **12** | ![Codeforces](https://img.shields.io/badge/Codeforces-FF5722?style=flat-square&logo=codeforces&logoColor=white) |
-| **CSES** | **40** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
-| **Total** | **52** | — |
+| **CSES** | **41** | ![CSES](https://img.shields.io/badge/CSES-4CAF50?style=flat-square&logo=leetcode&logoColor=white) |
+| **Total** | **53** | — |
 
 ### 🛠️ Languages Used
 
-- **C++**: 50 solutions
+- **C++**: 51 solutions
 - **Other**: 2 solutions
 
 ---
 
 ## 📅 Recent Submissions
 
+- **[CSES - Palindrome Reorder](https://cses.fi/problemset/task/1755/)** (Solved in C++ (C++23) on 8/25/2026)
 - **[CSES - Coin Piles](https://cses.fi/problemset/task/1754/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
 - **[CSES - Trailing Zeros](https://cses.fi/problemset/task/1618/)** (Solved in C++ (C++23) on 8/18/2026)
-- **[CSES - Bit Strings](https://cses.fi/problemset/task/1617/)** (Solved in C++ (C++23) on 8/18/2026)
 
 ---
-*Last updated on: 8/18/2026*
+*Last updated on: 8/25/2026*
