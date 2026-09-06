@@ -38,12 +38,10 @@ void solve() {
 
             if (j < m)
                 upd(dp[i][j + 1], dp[i][j]);
-
             if (i < n && j < m && ps[i] == pt[j])
                 upd(dp[i + 1][j + 1], dp[i][j] + 1);
         }
     }
-
     cout << dp[n][m] - 1 << '\n';
 }
 
