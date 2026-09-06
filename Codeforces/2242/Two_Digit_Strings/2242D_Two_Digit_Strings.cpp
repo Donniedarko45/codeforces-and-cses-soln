@@ -35,6 +35,7 @@ void solve() {
 
             if (i < n)
                 upd(dp[i + 1][j], dp[i][j]);
+
             if (j < m)
                 upd(dp[i][j + 1], dp[i][j]);
 
@@ -42,6 +43,7 @@ void solve() {
                 upd(dp[i + 1][j + 1], dp[i][j] + 1);
         }
     }
+
     cout << dp[n][m] - 1 << '\n';
 }
 
