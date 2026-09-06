@@ -17,7 +17,7 @@ void solve() {
     for (int i = 0; i < n; i++)
         ps[i + 1] = (ps[i] + (s[i] - '0')) % 10;
 
-    for (int i = 0; i < m; i++)
+    for (int i = 0; i< m; i++)
         pt[i + 1] = (pt[i] + (t[i] - '0')) % 10;
 
     n++;
